@@ -1,0 +1,69 @@
+# Fake News Detector
+
+## Project Title & Description
+
+**Fake News Detector** is a machine learning-based web application designed to classify news as either *Real* or *Fake*. Using Natural Language Processing (NLP) and a Naive Bayes classifier, it offers a simple, interactive interface for users to input news text and receive classification results instantly.
+
+This project leverages Python, Streamlit, and NLP techniques to combat the spread of misinformation.
+
+## Features
+
+- ✅ Real-time prediction of fake or real news.
+- 🧠 Pre-trained Naive Bayes model with NLP preprocessing.
+- 📊 Displays model performance metrics (accuracy, confusion matrix).
+- 💻 Streamlit web interface for user interaction.
+- 🔍 Easily extensible with new datasets or models.
+
+## Installation Instructions
+
+Follow these steps to install and run the application locally:
+
+1. **Clone the repository**:
+ ```bash
+   git clone https://github.com/Atullodhi/Fake-news-detector.git
+   cd Fake-news-detector
+
+2. Create and activate a virtual environment:
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+3. Install the dependencies:
+pip install -r requirements.txt
+
+4. Download required NLTK data:
+import nltk
+nltk.download('stopwords')
+
+5. Run the Streamlit app:
+streamlit run app.py
+
+Usage -
+1. Open the web app in your browser (usually at http://localhost:8501).
+2. Enter the news article text in the input area.
+3. Click "Predict" to check whether the news is real or fake.
+4. View classification results and optional model metrics.
+
+Folder Structure -
+
+Fake-news-detector/
+│
+├── .streamlit/          # Streamlit configuration files
+├── data/                # Datasets used for training/testing
+├── .replit/             # Replit environment configuration
+├── app.py               # Main application file
+├── db_utils.py          # Database utility functions
+├── init_database.py     # Database setup script
+├── model_utils.py       # Machine learning model logic
+├── generated-icon.png   # Application favicon
+├── pyproject.toml       # Project metadata
+├── replit.nix           # Replit-specific configuration
+└── uv.lock              # Universal version lock file
+
+Contributing -
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository.
+2. Create a feature branch: git checkout -b feature-name
+3. Make your changes and commit: git commit -m 'Add some feature'
+4. Push to the branch: git push origin feature-name
+5. Open a pull request describing your changes.
