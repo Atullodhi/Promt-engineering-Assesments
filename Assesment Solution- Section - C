@@ -1,0 +1,88 @@
+Assessment - Section - C
+
+PROMPT -
+
+Please generate a clean, professional, and ATS-friendly resume template using the information above. Keep formatting simple and compatible with resume screening systems (no graphics or tables). Include sections for Objective, Skills, Education, Projects, Experience (placeholder), and Contact Information. Use bullet points and a logical layout by using ROSE Framework Prompt
+Personal Information:
+Name: Atul Lodhi
+Location: Maksudangarh, Dist. - Guna, Madhya Pradesh
+Email: [atullodhi.9068@gmail.com](mailto:atullodhi.9068@gmail.com)
+Phone: 9977141485
+LinkedIn: [www.linkedin.com/in/atul-lodhi-1153a530b](http://www.linkedin.com/in/atul-lodhi-1153a530b)
+GitHub: [https://github.com/Atullodhi](https://github.com/Atullodhi)
+Education:
+Degree: B.Tech in Computer Science and Engineering
+University: Sage University, Bhopal
+Graduation: June 2025
+CGPA: 8.0 / 10
+cyber security course and intership 1 year 2024 - 2025 by netligent
+cisco certification 1 year 2024 - 2025
+
+OUTPUT -
+
+ATUL LODHI  
+Maksudangarh, Dist. - Guna, Madhya Pradesh  
+Phone: 9977141485  
+Email: atullodhi.9068@gmail.com  
+LinkedIn: www.linkedin.com/in/atul-lodhi-1153a530b  
+GitHub: https://github.com/Atullodhi  
+
+==================================================================
+OBJECTIVE
+==================================================================
+
+Aspiring Computer Science Engineer with a strong foundation in software development, algorithms, and data structures. Seeking an entry-level position where I can apply my technical knowledge, contribute to real-world projects, and grow as a software professional.
+
+==================================================================
+SKILLS
+==================================================================
+
+- Programming Languages: Python, C++, Java
+- Web Technologies: HTML, CSS, JavaScript
+- Frameworks: Streamlit (for data apps)
+- Tools: Git, GitHub, VS Code
+- Soft Skills: Problem-solving, Communication, Teamwork
+- Familiar with: Machine Learning, Natural Language Processing (NLP), Database Management
+
+==================================================================
+EDUCATION
+==================================================================
+
+**B.Tech in Computer Science and Engineering**  
+Sage University, Bhopal  
+Expected Graduation: June 2025  
+CGPA: 8.0 / 10  
+
+==================================================================
+PROJECTS
+==================================================================
+
+**Fake News Detector**  
+GitHub: https://github.com/Atullodhi/Fake-news-detector  
+- Developed a web-based application to detect fake news using NLP and a Naive Bayes classifier.  
+- Integrated Streamlit for a user-friendly interface.  
+- Processed text data using tokenization, stop word removal, and TF-IDF vectorization.  
+- Achieved high prediction accuracy on benchmark datasets.
+
+
+==================================================================
+EXPERIENCE
+==================================================================
+
+
+- **Cyber security course/certification** — Netligent  
+  Duration: 1 jan 2024 – 1 jan 2025
+
+
+==================================================================
+CERTIFICATIONS 
+==================================================================
+
+Cyber security certification 2025 (1 year)
+Cisco Certification 2025
+==================================================================
+EXTRA-CURRICULAR / VOLUNTEERING 
+==================================================================
+
+Collage activities volunteering and leadership, teamwork .
+
