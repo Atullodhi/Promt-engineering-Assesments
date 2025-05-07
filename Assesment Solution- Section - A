@@ -1,0 +1,204 @@
+Assesment - Section - A
+
+A - PROMPT For Content creation by ROSE Framework
+
+role- Content Creator
+objective- Create a news article
+subject- mock drill
+example- as a newspaper what is mock drill, why imp and how to work or date time of mock drill in india
+create a content using this ROSE framework
+
+OUTPUT -
+
+Here's a complete newspaper-style article using the ROSE framework for the topic "Mock Drill", including what, why it's important, how it works, and date/time relevance to India:
+
+📰 The Safety Sentinel
+📍 National Edition – India
+🗓️ Tuesday, May 7, 2025
+
+Mock Drills: India’s Preparedness Strategy in Action
+New Delhi – In light of increasing natural disasters and security threats, organizations and institutions across India are actively engaging in mock drills—a structured and timed simulation designed to test emergency response readiness.
+
+🧾 What is a Mock Drill?
+A mock drill is a pre-planned and supervised practice activity that mimics emergency situations such as fire outbreaks, earthquakes, chemical spills, or terrorist threats. The goal is to familiarize participants with evacuation routes, communication protocols, and the roles they play during actual crises.
+
+❗ Why is it Important?
+India, being geographically and demographically diverse, is vulnerable to multiple hazards. With growing urbanization and complex infrastructure, the need for real-time disaster preparedness is more vital than ever.
+
+Mock drills help in:
+
+Assessing the effectiveness of emergency response systems
+
+Training people to remain calm and act swiftly under pressure
+
+Identifying gaps in safety protocols and improving them
+
+Reducing panic during real incidents
+
+“Preparedness saves lives. A mock drill is not just practice—it’s prevention,” said Mr. Rajeev Nair, Disaster Management Consultant, NDMA.
+
+🔧 How Does a Mock Drill Work?
+Mock drills are conducted in coordination with local disaster management authorities, fire departments, police, and sometimes the National Disaster Response Force (NDRF). The process includes:
+
+Pre-drill briefing to explain roles
+
+Alarm signal or simulated trigger (e.g., fire alarm)
+
+Evacuation and assembly
+
+Rescue and medical response demonstration
+
+Post-drill review and feedback
+
+🗓️ Recent and Upcoming Drills in India
+SAGE University, Bhopal held a full-scale earthquake evacuation drill on May 5, 2025, involving over 800 students.
+
+The Delhi Metro Rail Corporation (DMRC) is scheduled to conduct a chemical emergency drill on May 9, 2025 at Rajiv Chowk station.
+
+National Fire Service Week (April 14–20) witnessed mock fire drills across multiple government buildings and schools.
+
+🔚 Conclusion:
+Mock drills may seem routine, but they are a lifesaving rehearsal. As threats grow more complex, India's resilience depends on regular practice and public cooperation.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+B - PROMPT For Code generation by ROSE Framework
+
+Give HTML code help of code generation by ROSE frame work
+R - Role: Web Developer
+O - Objective: Create a simple IoT cloud interface website
+S - Subject: Build a responsive HTML-based interface that displays IoT device data and allows basic control
+E - Example: Generate clean HTML, CSS, and optional JavaScript code for a dashboard interface showing temperature, humidity, device status, and control buttons
+
+OUTPUT - 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IoT Cloud Interface</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .dashboard {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .sensor-data, .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px 0;
+    }
+
+    .card {
+      flex: 1 1 45%;
+      background: #f9f9f9;
+      margin: 10px;
+      padding: 20px;
+      border-left: 5px solid #4CAF50;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      color: #4CAF50;
+    }
+
+    .status-online {
+      color: green;
+      font-weight: bold;
+    }
+
+    .status-offline {
+      color: red;
+      font-weight: bold;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #0b7dda;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <h1>IoT Cloud Dashboard</h1>
+    
+    <!-- Sensor Readings -->
+    <div class="sensor-data">
+      <div class="card">
+        <h2>Temperature</h2>
+        <p id="temp">-- °C</p>
+      </div>
+      <div class="card">
+        <h2>Humidity</h2>
+        <p id="humidity">-- %</p>
+      </div>
+      <div class="card">
+        <h2>Device Status</h2>
+        <p id="status" class="status-online">Online</p>
+      </div>
+    </div>
+
+    <!-- Control Buttons -->
+    <div class="controls">
+      <div class="card">
+        <h2>LED Control</h2>
+        <button class="btn" onclick="toggleLED()">Toggle LED</button>
+      </div>
+      <div class="card">
+        <h2>Fan Control</h2>
+        <button class="btn" onclick="toggleFan()">Toggle Fan</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Simulated dynamic data
+    document.getElementById("temp").innerText = "28.5 °C";
+    document.getElementById("humidity").innerText = "65 %";
+
+    // Control functions
+    function toggleLED() {
+      alert("LED toggled!");
+    }
+
+    function toggleFan() {
+      alert("Fan toggled!");
+    }
+  </script>
+</body>
+</html>
+
